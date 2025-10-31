@@ -38,8 +38,7 @@ else:
     summ2 = 0
     for i in range(min(n, m)):
         summ1 += mas[i][i]
-        summ2 += mas[-i][-i]
-    print(f'Суммы по диагоналям: {summ1}, {summ2}')
+    print(f'Сумма диагонали: {summ1}')
     maxsum = 0
     for i in range(len(mas)):
         s = 0
